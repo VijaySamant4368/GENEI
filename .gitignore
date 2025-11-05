@@ -12,6 +12,7 @@ __pycache__/
 *.pyo
 
 *.txt
+!requirements.txt
 *.txt.gz
 
 .DS_Store           # macOS system files
