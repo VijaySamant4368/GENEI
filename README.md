@@ -84,9 +84,17 @@ The following steps outline the process of extracting relevant data, preprocessi
 * The final classification output (`full_GENEI.csv`) will provide the predicted classes for each patient based on the expression values of the five important genes.
 * The comparison of GENEI with **ISS Staging** will help determine whether GENEI can offer superior or complementary prognostic value in predicting patient outcomes like **OS** and **EFS**.
 
+![Description of OS_comp](./OS_comp.png)
+![Description of EFS_comp](./EFS_comp.png)
+
+The Kaplan–Meier curves indicate that the GENEI classification system differentiates patient survival outcomes more distinctly than the ISS staging. Patients in the GENEI–1 group consistently show the highest overall and event-free survival, whereas GENEI–3 patients exhibit the poorest outcomes.
+This suggests that GENEI captures gene expression–based prognostic signals that complement or surpass the clinical ISS categories.
+
 ---
 
 ## Notes
 
 * Ensure you have all the required dependencies installed to run the Python scripts and Jupyter Notebooks (e.g., pandas, numpy, scikit-learn, etc.).
 * The methodology is inspired by the approach used in the [MRS classification paper](https://www.sciencedirect.com/science/article/pii/S1936523321001492?via%3Dihub).
+
+
