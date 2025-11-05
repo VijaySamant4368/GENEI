@@ -1,0 +1,20 @@
+venv/
+.env/
+
+.vscode/
+
+*.csv
+*.xls
+*.xlsx
+
+__pycache__/
+*.pyc
+*.pyo
+
+*.txt
+*.txt.gz
+
+.DS_Store           # macOS system files
+Thumbs.db           # Windows system files
+
+*.log
